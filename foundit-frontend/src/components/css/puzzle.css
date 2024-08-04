@@ -1,0 +1,55 @@
+.puzzle-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    margin: auto;
+    width: 800px;
+    margin-top: 10px;
+  }
+  
+  .question-section {
+    margin-bottom: 12px;
+  }
+  
+  .question-label {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .question-text {
+    margin-top: 4px;
+  }
+  
+  .show-answer-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .show-answer-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .answer-section {
+    
+  } */
+  
+  .answer-section.show-answer + .answer-text {
+    display: block;
+  }
+  
+  .answer-label {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .answer-text {
+    margin-top: 4px;
+  }
+  
